@@ -6,7 +6,7 @@ from prometheus_client import Counter, generate_latest
 import logging
 
 app = FastAPI()
-VERSION = "v1"
+VERSION = "v2"
 
 REQUEST_COUNT = Counter('request_count', 'Total API Requests')
 
